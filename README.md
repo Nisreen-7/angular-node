@@ -45,3 +45,14 @@ _______________________________________
 8. Rajouter une méthode removeSelected dans le HomeComponent qui va lancer la méthode delete du service puis retirer la person supprimée de la liste et remettre selected à null
 	
 9. Rajouter un bouton dans le template qui ne s'affichera que si selected contient quelque chose et qui au click déclenchera le removeSelected
+
+____________________________
+## Formulaire d'ajout
+
+1. Créer un nouveau component AddPersonComponent et le lier à la route /add-person
+	
+2. Dans ce component, créer un formulaire html (avec du bootstrap pour que ça soit joli) et lier les champs du formulaire à un objet Person dans le component
+	
+3. Rajouter le service et le router dans le constructeur du component et faire qu'au submit du formulaire ça déclenche le add avant de faire une redirection vers la page d'accueil
+
+Bonus : Dans le HomeComponent faire de la multiselection
